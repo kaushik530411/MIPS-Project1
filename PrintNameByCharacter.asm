@@ -8,5 +8,8 @@ main:
 	add $a0, $a0, -64  #  Stores the value 0
 	syscall
 
+	add $a0, $a0, 2
+	syscall
+
 	li $v0, 10
 	syscall
