@@ -4,7 +4,7 @@ main:
 	li $a0, '@'
 	syscall
 
-	li $v0, 1  ##  Print by Intezer
+	li $v0, 1  #  Print by Intezer
 	add $a0, $a0, -64  #  Stores the value 0
 	syscall
 
@@ -27,6 +27,14 @@ main:
 	syscall
 
 	syscall  #  Prints the stored value 8 again
+
+	li $v0, 11  #  Print by character
+	add $a0, $a0, 2  #  Line Feet character stored, decimal value = 10
+	syscall
+
+	add $a0, $a0, 67
+	syscall
+
 
 	li $v0, 10
 	syscall
