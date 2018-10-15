@@ -53,5 +53,11 @@ main:
 	add $a0, $a0, -53  #  Stores the character ',', decimal value = 44
 	syscall
 
+	add $a0, $a0 -12  #  Stores the white space characer ' ', decimal value = 32
+	syscall
+
+	add $a0, $a0, 43  #  Stores the character 'K', decimal value = 75
+	syscall
+
 	li $v0, 10
 	syscall
