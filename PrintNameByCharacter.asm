@@ -44,5 +44,14 @@ main:
 	add $a0, $a0, -11  #  Stores the character 'h', decimal value = 104
 	syscall
 
+	add $a0, $a0, 10  #  Stores the character 'r', decimal value = 114
+	syscall
+
+	add $a0, $a0, -17  #  Stores the character 'a', decimal value = 97
+	syscall
+
+	add $a0, $a0, -53  #  Stores the character ',', decimal value = 44
+	syscall
+
 	li $v0, 10
 	syscall
