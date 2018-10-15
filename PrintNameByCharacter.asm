@@ -17,8 +17,16 @@ main:
 	add $a0, $a0, -2  #  Stores the value 6
 	syscall
 
-	add $a0, $a0, -1  #Stores the value 5
+	add $a0, $a0, -1  #  Stores the value 5
 	syscall
+
+	add $a0, $a0, -4  #  Stores the value 1
+	syscall
+
+	add $a0, $a0, 7  #  Stores the value 7
+	syscall
+
+	syscall  #  Prints the stored value 8 again
 
 	li $v0, 10
 	syscall
