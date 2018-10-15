@@ -32,9 +32,17 @@ main:
 	add $a0, $a0, 2  #  Line Feet character stored, decimal value = 10
 	syscall
 
-	add $a0, $a0, 67
+	add $a0, $a0, 67  #  Stores the character 'M', decimal value = 77
 	syscall
 
+	add $a0, $a0, 28  #  Stores the character 'i', decimal value = 105
+	syscall
+
+	add $a0, $a0, 10  #  Stores the character 's', decimal value = 115
+	syscall
+
+	add $a0, $a0, -11  #  Stores the character 'h', decimal value = 104
+	syscall
 
 	li $v0, 10
 	syscall
