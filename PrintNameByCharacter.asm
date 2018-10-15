@@ -68,5 +68,14 @@ main:
 	add $a0, $a0, -2  #  Stores the character 's', decimal value = 115
 	syscall
 
+	add $a0, $a0, -11  #  Stores the character 'h', decimal value = 104
+	syscall
+
+	add $a0, $a0, 1  #  Stores the character 'i', decimal value = 105
+	syscall
+
+	add $a0, $a0, 2  #  Stores the character 'k', decimal value = 107
+	syscall
+
 	li $v0, 10
 	syscall
